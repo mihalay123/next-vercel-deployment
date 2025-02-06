@@ -20,8 +20,6 @@ export default function Home() {
           <li>Save and see your changes instantly.</li>
         </ol>
 
-        <Image src='/man.jpg' alt='man' layout='fill' />
-
         <div className={styles.ctas}>
           <a
             className={styles.primary}
@@ -29,13 +27,13 @@ export default function Home() {
             target='_blank'
             rel='noopener noreferrer'
           >
-            {/* <Image
+            <Image
               className={styles.logo}
               src='/vercel.svg'
               alt='Vercel logomark'
               width={20}
               height={20}
-            /> */}
+            />
             Deploy now
           </a>
           <a
